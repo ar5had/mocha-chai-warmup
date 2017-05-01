@@ -75,7 +75,7 @@ suite('Unit Tests', function(){
 
   // This function is used in the tests. Don't Edit it.
   function weirdNumbers(delta) {
-    const a= (1 + delta - Math.random());
+    const a= (1 + delta);
     console.log('no is ', a);
     return a;
  }
